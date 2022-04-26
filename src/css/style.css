@@ -21,6 +21,39 @@ body {
     padding: 10px;
 }
 
+#main-area {
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#post-area, #side-area {
+    background: orange;
+}
+
+#post-area {
+    width: 660px;
+    float: left;
+}
+
+#side-area {
+    width: 240px;
+    float: right;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#baseboard {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
 /* general formatting */
 
 h1 {
